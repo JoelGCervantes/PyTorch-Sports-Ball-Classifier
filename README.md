@@ -24,6 +24,7 @@ Fully Connected (Linear) Layers: Acts as the "brain" to classify the extracted f
 # Dataset Structure 
 The project uses a custom dataset organized for easy loading via 
 ```torchvision.datasets.ImageFolder```:
+```
 data/
 ├── train/
 │   ├── tennis/
@@ -33,6 +34,7 @@ data/
     ├── tennis/
     ├── basketball/
     └── soccer/
+```
 
 ## Learning Milestones 
 - **Data Augmentation**: Implemented transforms to resize and normalize raw images.
