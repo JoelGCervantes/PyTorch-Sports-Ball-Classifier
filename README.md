@@ -45,4 +45,5 @@ data/
 - **Training Epochs**: 2 (or more)
 - **Optimizer**: SGD with Momentum
 - **Loss Function**: CrossEntropyLoss
-- **Final Accuracy**: %
+- **Final Accuracy**: 68.3%
+- **Final Accuracy per Class**: basketball: 41.9%, football: 78.8%, tennis: 74.0%
