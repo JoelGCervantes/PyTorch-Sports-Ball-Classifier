@@ -42,11 +42,11 @@ data/
 - **Generalization**: Verified learning by testing the model on a separate "held-out" test set to ensure the model isn't just memorizing data (overfitting).
 
 ## Training Improvements (Hyperparameter Tuning)
-The initial model achieved 58.3% test accuracy. By tuning key training hyperparameters, I improved performance to **82.5%**.
+The initial model achieved 68.3% test accuracy. By tuning key training hyperparameters, I improved performance to **82.5%**.
 
 Changes made:
-- **Batch size:** increased from `10` → `5`
-- **Momentum (SGD):** increased from `0.9` → `0.5`
+- **Batch size:** decreased from `10` → `5`
+- **Momentum (SGD):** decreased from `0.9` → `0.5`
 - **Epochs:** increased from `5` → `20`
 
 Why this helped:
